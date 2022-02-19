@@ -23,7 +23,7 @@ class Calculator extends StatefulWidget {
 
 class _CalculatorState extends State<Calculator> {
   String expression = '';
-  String sym = '+';
+  String sym = '';
   num number1 = 0;
   num number2 = 0;
   num result = 0;
